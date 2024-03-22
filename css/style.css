@@ -19,17 +19,16 @@ header {
     display: flex;
 }
 
+.d-inline {
+    display: inline;
+}
+
 .colonna {
     flex-direction: column;
 }
 
-.destra {
-    text-align: right;
-    padding: 10px 10px 10px 0;
-}
-
-.sinistra {
-    padding: 10px 0 10px 10px;
+.testo-centrato {
+    text-align: center;
 }
 
 .between {
@@ -58,6 +57,10 @@ header {
 
 .ruotata {
     transform: rotate(180deg);
+}
+
+.blu {
+    color: #255ee9;
 }
 
 /* FINE CLASSE UTILITY */
@@ -152,7 +155,11 @@ footer {
 }
 
 .padding {
-    padding: 5px 0 20px;
+    padding: 50px 0 20px;
+}
+
+.p-bott-20 {
+    padding-bottom: 20px;
 }
 
 .p-foot {
@@ -239,6 +246,10 @@ footer {
 
 .list-foot {
     list-style-type: none;
+}
+
+.col-25 ul li {
+    color: white;
 }
 
 .list-foot li {

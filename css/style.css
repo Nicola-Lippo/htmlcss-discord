@@ -5,9 +5,8 @@
 }
 
 header {
-    background-color: #255ee9;
+    color: white;
 }
-
 
 /* CLASSE UTILITY */
 
@@ -18,6 +17,10 @@ header {
 
 .d-flex {
     display: flex;
+}
+
+.colonna {
+    flex-direction: column;
 }
 
 .list {
@@ -47,15 +50,7 @@ header {
     justify-content: space-between;
 }
 
-.bottone {
-    background-color: pink;
-    border: 1px dashed black;
-    margin: 20px 0;
-    padding: 5px;
-}
-
 .center {
-    justify-content: center;
     align-items: center;    
 }
 
@@ -64,12 +59,14 @@ header {
 
 /* CLASSE UTILITY BACKGROUND */
 
-.azzurro {
-    background-color: rgb(126, 188, 188);
+header {
+    background-color: #255ee9;
 }
 
-.blu {
-    background-color: blue;
+.jumbo {
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .grigia {
@@ -94,10 +91,6 @@ header {
 
 .viola {
     background-color: blueviolet;
-}
-
-.arancione {
-    background-color: orange;
 }
 
 /* FINE CLASSE UTILITY BACKGROUND */
@@ -162,12 +155,12 @@ header {
 
 /* CLASSE UTILITY PADDING */
 
-.padding20 {
+.padding-20 {
     padding: 20px 0;
 }
 
-.padding-header {
-    padding: 5px 0;
+.padding-10 {
+    padding: 10px 0;
 }
 
 .padding {
@@ -176,7 +169,6 @@ header {
 
 .padding-bottom {
     padding: 20px 0 3px;
-    border-bottom: 10px solid rgb(126, 188, 188);
 }
 
 .padding-top {
@@ -185,3 +177,40 @@ header {
 }
 
 /* FINE CLASSE UTILITY PADDING */
+
+/* CLASSE UTILITY TAG button O a */
+
+.button {
+    padding: 10px;
+    background-color: white;
+    border-radius: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+.button-header-w {
+    padding: 10px;
+    margin: 0 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.button-header-b {
+    padding: 10px;
+    margin: 0 10px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+.bottone {
+    background-color: pink;
+    border: 1px dashed black;
+    margin: 20px 0;
+    padding: 5px;
+}
+
+/* FINE CLASSE UTILITY TAG BUTTON O A */

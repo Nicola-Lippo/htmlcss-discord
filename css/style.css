@@ -23,20 +23,6 @@ header {
     flex-direction: column;
 }
 
-.list {
-    list-style-type: none;
-}
-
-.list li {
-    display: inline-block;
-    padding: 0 15px;
-}
-
-.list li a {
-    color: white;
-    text-decoration: none;
-}
-
 .destra {
     text-align: right;
     padding: 10px 10px 10px 0;
@@ -56,6 +42,10 @@ header {
 
 .m-top-25 {
     margin-top: 25px;
+}
+
+.b-bottom {
+    border-bottom: 2px solid #255ee9;
 }
 
 /* FINE CLASSE UTILITY */
@@ -83,7 +73,7 @@ header {
     background-color: rgb(164, 163, 163);
 }
 
-.dark {
+footer {
     background-color: rgb(51, 51, 51);
 }
 
@@ -98,13 +88,11 @@ header {
 
 .col-25 {
     width: 25%;
-    height: 200px;
     border: 1px dashed rgb(255, 255, 255);
 }
 
 .col-30 {
     width: 30%;
-    height: 200px;
     border: 1px dashed black;
 }
 
@@ -120,7 +108,6 @@ header {
 
 .col-70 {
     width: 70%;
-    height: 200px;
     border: 1px dashed black;
 }
 
@@ -165,9 +152,8 @@ header {
     padding: 20px 0 3px;
 }
 
-.padding-top {
-    padding: 20px 0 0;
-    border-top: 3px solid white;
+.p-foot {
+    padding-bottom: 60px;
 }
 
 /* FINE CLASSE UTILITY PADDING */
@@ -209,11 +195,13 @@ header {
     color: white;
 }
 
-.bottone {
-    background-color: pink;
+.button-foot {
     border: 1px dashed black;
-    margin: 20px 0;
-    padding: 5px;
+    background-color: rgb(36, 50, 198);
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
 }
 
 /* FINE CLASSE UTILITY TAG BUTTON O A */
@@ -228,4 +216,37 @@ header {
     font-size: 180%;
 }
 
+
 /* FINE CLASSI FONT */
+
+/* CLASSI DEDICATE AI TAG ul - ol - li */
+
+.list {
+    list-style-type: none;
+}
+
+.list li {
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.list li a {
+    color: white;
+    text-decoration: none;
+}
+
+.list-foot {
+    list-style-type: none;
+}
+
+.list-foot li {
+    padding: 5px 0;
+    font-size: 120%;
+}
+
+.list-foot strong {
+   color: #255ee9;
+   font-size: 120%;
+}
+
+/* FINE CLASSI DEDICATE AI TAG ul - ol - li */
